@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sasiram - Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+</head>
+<body>
+    <header id="header" class="header-tops">
+        <div class="container">
+            <h1><a href="index.html">Sasiram</a></h1>
+            <h2>I'm <span class="typing"></span></h2>
+            <nav class="nav-menu">
+                <ul>
+                    <li class="active"><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#portfolio">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contacts">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/rajaprerak" target="_blank"><i class="bx bxl-linkedin"></i></a>
+                <a href="https://www.github.com/rajaprerak" target="_blank"><i class="bx bxl-github"></i></a>
+                <a href="mailto:rajaprerak@gmail.com" target="_blank"><i class="bx bxl-google"></i></a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>Welcome to My Portfolio</h1>
+                <p>Web Developer & Designer</p>
+                <a href="#contacts" class="cta-button">Get in Touch</a>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <img src="sasi.jpg" alt="Sasiram" class="profile-image">
+                <p>Hello! I'm Sasiram, a passionate web developer and designer focused on creating stunning user experiences...</p>
+            </div>
+        </section>
+
+        <section id="education" class="section">
+            <h2>Education</h2>
+            <div class="education-content">
+                <div class="education-item">
+                    <h3>Bachelor's in Information Technology</h3>
+                    <p>Sri Krishna College Of Technology, 2023-2027</p>
+                </div>
+                <div class="education-item">
+                    <h3>SSLC</h3>
+                    <p>VGN School, 2019-2020</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio" class="section">
+            <h2>Projects</h2>
+            <div class="projects-container">
+                <div class="project">
+                    <h3>Project 1</h3>
+                    <p>Project 1 description...</p>
+                </div>
+                <div class="project">
+                    <h3>Project 2</h3>
+                    <p>Project 2 description...</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section">
+            <h2>My Skills</h2>
+            <div class="skills-container">
+                <div class="skill"><i class="bx bxl-html5"></i> HTML5</div>
+                <div class="skill"><i class="bx bxl-css3"></i> CSS3</div>
+                <div class="skill"><i class="bx bxl-javascript"></i> JavaScript</div>
+            </div>
+        </section>
+
+        <section id="contacts" class="section">
+            <h2>Contact</h2>
+            <form>
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Sasiram. All rights reserved.</p>
+    </footer>
+
+    <script>
+        var typed = new Typed('.typing', {
+            strings: ["Web Developer", "Designer", "Programmer"],
+            typeSpeed: 100,
+            backSpeed: 60,
+            loop: true
+        });
+    </script>
+</body>
+</html>
